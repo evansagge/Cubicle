@@ -230,7 +230,7 @@ module Cubicle
       end
 
       def quote_if_required(filter_value)
-        (filter_value.is_a?(String) || filter_value.is_a?(Symbol)) ? "'#{filter_value}'" :filter_value
+        (filter_value.is_a?(String) || filter_value.is_a?(Symbol)) ? "'#{filter_value}'" : filter_value
       end
 
       #this is just the Mongo driver's implementation of the MapReduce
