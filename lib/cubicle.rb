@@ -1,5 +1,5 @@
 require "rubygems"
-require "active_support"
+require "active_support/all"
 require "mongo"
 require "logger"
 require "mustache"
