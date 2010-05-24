@@ -22,7 +22,6 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "cubicle.gemspec",
-     "cubicle.log",
      "lib/cubicle.rb",
      "lib/cubicle/aggregation.rb",
      "lib/cubicle/aggregation/ad_hoc.rb",
@@ -71,7 +70,6 @@ Gem::Specification.new do |s|
      "test/cubicle/mongo_mapper/aggregate_plugin_test.rb",
      "test/cubicle/ordered_hash_with_indifferent_access_test.rb",
      "test/cubicles/defect_cubicle.rb",
-     "test/log/test.log",
      "test/models/defect.rb",
      "test/test_helper.rb"
   ]
