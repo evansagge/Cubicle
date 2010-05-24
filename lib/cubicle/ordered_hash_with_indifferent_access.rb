@@ -1,4 +1,4 @@
-class OrderedHashWithIndifferentAccess < OrderedHash
+class OrderedHashWithIndifferentAccess < Hash
   def initialize(initial_data={})
     merge!(initial_data.stringify_keys)
   end
